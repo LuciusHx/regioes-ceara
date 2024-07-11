@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style:circle;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    margin-left: 1em;
+}
