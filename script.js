@@ -18,10 +18,24 @@ function percorrerLista(){
         if(idDaLista){
             let listaElement = document.getElementById(idDaLista);
             if(listaElement){
-                listaElement.innerHTML+= `<li>${estados[i].nome}</li>`
+                listaElement.innerHTML+= `<li>${estados[i].nome}</li>`;
             }
         }
     }
 }
 
-percorrerLista();
+let vezesAcionado = 0
+function botao(){
+    let button = document.getElementById('exibir');
+    button.addEventListener('click', function(){
+        percorrerLista()
+        
+    })
+    
+    
+}
+
+
+if(vezesAcionado == 0){
+    botao()
+}

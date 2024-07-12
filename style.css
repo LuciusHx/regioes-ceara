@@ -12,3 +12,7 @@
 h3 {
     margin-left: 1em;
 }
+button {
+    border: 0.5em;
+    background-color: red;
+}
